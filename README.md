@@ -8,7 +8,7 @@ This app fetch some image from "https://pixabay.com/", the main idea from this p
 * As a user I should be able to click on an image and get some details about it
 * As a user I should be able view all images and it's details recent data when my device is offline
 
-## How to get the data from Github 
+## How to get the data from Pixabay 
 pixabay offers free api to fetch random list of images 
 https://pixabay.com/?******TOKEN********
 
