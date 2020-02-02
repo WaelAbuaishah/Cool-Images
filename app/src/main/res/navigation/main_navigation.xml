@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/signupView">
+
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.coolimages.view.login.LoginView"
+        android:label="LoginView"
+        tools:layout="@layout/view_login">
+
+
+        <action
+            android:id="@+id/action_loginFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_signupView"
+            app:destination="@id/signupView" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.coolimages.view.gallery.GalleryView"
+        android:label="GalleryView"
+        tools:layout="@layout/view_gallery" >
+        <action
+            android:id="@+id/action_galleryFragment_to_galleryDetailsView"
+            app:destination="@+id/galleryDetailsView"
+            app:popUpToInclusive="false">
+            <argument
+                android:name="photo"
+                app:argType="nabed.apps.services.model.photos.Photo"
+                app:nullable="false"/>
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/signupView"
+        android:name="com.example.coolimages.view.signup.SignupView"
+        android:label="SignupView"
+        tools:layout="@layout/view_sign_up">
+
+        <action
+            android:id="@+id/action_signupView_to_galleryFragment"
+            app:destination="@id/galleryFragment"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/galleryDetailsView"
+        android:name="com.example.coolimages.view.galleryDetails.GalleryDetailsView"
+        android:label="GalleryDetailsView"
+        tools:layout="@layout/view_gallery_details" >
+    </fragment>
+
+</navigation>

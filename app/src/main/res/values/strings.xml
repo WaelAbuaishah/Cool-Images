@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cool Images</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="password">Password</string>
+    <string name="hint_text">Username</string>
+    <string name="registerNewUser">Register a new user</string>
+    <string name="login_to_cool_images">Login to Cool Images</string>
+    <string name="create_new_user_in_cool_images">Create new user</string>
+</resources>

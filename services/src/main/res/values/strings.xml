@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">service</string>
+    <string name="ConnectionError">No Internet Connection
+        Make sure your device is connected to the internet.</string>
+    <string name="slowInternetConnection">No Internet Connection
+        Make sure your device is connected to the internet.</string>
+    <string name="NoInternetConnection">No internet connection</string>
+    <string name="userAlreadyExist">User already exists</string>
+    <string name="userNotFound">Invalid username or password</string>
+    <string name="unExpectedErrorMessage">Un expected error happened…</string>
+
+</resources>
