@@ -25,4 +25,29 @@ https://pixabay.com/?******TOKEN********
 | <img src="https://firebasestorage.googleapis.com/v0/b/statistics-wallboard.appspot.com/o/device-2020-02-02-170537.png?alt=media&token=e39a2d06-e2ab-4a1a-aa61-6898b474c8bb" width="250"> | <img src="https://firebasestorage.googleapis.com/v0/b/statistics-wallboard.appspot.com/o/device-2020-02-02-170549.png?alt=media&token=9fd88c11-e629-4616-88e6-2787f4560546" width="250"> |
 
 
+## Android considered things
+* Architecture design pattern: MVVM
+* Dependency Injection: Koin
+* Asynchronous tasks: Coroutines
+* Data Binding
+* Networking with retrofit
+* Developed with Kotlin
+
+ ## Installation
+Clone this repository and import into **Android Studio**
+```bash
+git clone https://github.com/WaelAbuaishah/Cool-Images.git
+```
+
+ ## Built With
+* Android Studio: 3.5
+* Gradle: 3.5.3
+* Kotlin: 1.3.41
+* Androidx
+* Glide
+* Retrofit
+* Koin 
+* Room
+* Navigation componenets
+
 
