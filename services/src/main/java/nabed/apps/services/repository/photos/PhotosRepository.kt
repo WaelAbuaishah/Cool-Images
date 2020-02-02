@@ -51,18 +51,14 @@ class PhotosRepository(
         println("PhotosRepository.handleError")
         return try {
             val localPhotos: List<Photo> = local.getPhotos().toPhotosListFromRoomPhotos()
-            if (localPhotos != null) {
+            if (localPhotos != null && localPhotos.isNotEmpty()) {
                 responseHandler.handleSuccess(localPhotos)
             } else {
-                if (e != null) {
-                    responseHandler.handleException(e)
-                } else {
-                    responseHandler.handleException(e)
-                }
+                responseHandler.handleException(e)
             }
         } catch (ex: Exception) {
             ex.printStackTrace()
-            responseHandler.handleException(ex)
+            responseHandler.handleException(e)
         }
     }
 }

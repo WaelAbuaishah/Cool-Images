@@ -31,6 +31,7 @@ class GalleryView : BaseView() {
 
             Status.ERROR -> {
                 println("GalleryView.Status.ERROR")
+                showErrorMessage(it.message)
             }
 
             Status.LOADING -> {

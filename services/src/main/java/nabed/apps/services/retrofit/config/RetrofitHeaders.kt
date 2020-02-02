@@ -34,7 +34,6 @@ class RetrofitHeaders {
 
     fun buildRetrofitRequestHeaders(): Headers {
         val headersBuilder = Headers.Builder()
-            .add("Accept", "application/hal+json")
             .add("Content-Type", "application/json")
 
         return headersBuilder.build()
