@@ -49,5 +49,7 @@ git clone https://github.com/WaelAbuaishah/Cool-Images.git
 * Koin 
 * Room
 * Navigation componenets
+* Kotlin Coroutines 
+* Repository 
 
 
