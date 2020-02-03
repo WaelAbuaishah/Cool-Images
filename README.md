@@ -50,6 +50,5 @@ git clone https://github.com/WaelAbuaishah/Cool-Images.git
 * Room
 * Navigation componenets
 * Kotlin Coroutines 
-* Repository 
 
 
